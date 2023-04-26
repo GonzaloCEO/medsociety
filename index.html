@@ -1,66 +1,176 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>MedSociety Co.</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body class="bg-gray-100 font-sans">
-    <header class="bg-gray-800 text-white text-center py-20">
-        <h1 class="text-3xl font-bold">MedSociety</h1>
-        <p class="mt-4">Fabricación de Medical Scrubs ⚕️</p>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo" >Conocimiento en tus manos</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicio</a></li>
+                    <li><a href="https://wa.me/c/593981286885">Producto</a></li>
+                    <li><a href="https://wa.me/message/YP5JPMH4FZOKH1">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <h1>MedSociety</h1>
+            <p>
+                MedSociety es una empresa dedicada a la venta de scrubs, libros e insumos médicos de la más alta calidad en el mercado cuyo propósito principal es el suministrar a todo aquel médico en desarrollo que nos necesite.
+            </p>
+            <a href="https://wa.me/c/593981286885" class="btn-1">Catálogo</a>
+        </div>
     </header>
 
-    <main class="max-w-6xl mx-auto py-12">
-        <div class="container flex flex-col md:flex-row md:justify-between items-center mb-8">
-            <div class="text max-w-md md:mr-8 mb-8 md:mb-0">
-                <h2 class="text-2xl font-bold mb-4">Modelo: Essentials</h2>
-                <p class="text-gray-700 leading-7">
-                    Nuestros scrubs de tecnología antifluido & stretch son la solución perfecta para profesionales de la salud que buscan comodidad, funcionalidad y estilo en su diario vivir.
-                    Propiedades:
-                    Nuestra tela importada de alta calidad no solo repele líquidos y manchas, sino que también te mantendrán fresco y limpio durante todo el día mientras te garantiza un ajuste cómodo y sin restricciones, permitiéndote moverte con facilidad al realizar tus tareas diarias.
-                </p>
+    <section class="coffe">
+        <img class="coffe-img" src="images/bg2.png" alt="">
+        <div class="coffe-content container">
+            <h2>Productos principales</h2>
+            <p class="txt-p" >
+                Tenemos un amplio catálogo que sabemos te interesará descubrir. <br> Dentro de este, te presentamos nuestros productos estrellas:
+            </p>
+            <div class="coffe-group">
+                <div class="coffe-1">
+                    <img src="images/c1.png" alt="">
+                    <h3>Scrubs</h3>
+                    <p>
+                        + MedSociety: Essentials <br>
+                        + MedSociety: Prometheus [Coming soon]
+                    </p>
+                </div>
+                <div class="coffe-1">
+                    <img src="images/c2.png" alt="">
+                    <h3>Books</h3>
+                    <p>
+                        + Originales <br> + Réplicas
+                    </p>
+                </div>
+                <div class="coffe-1">
+                    <img src="images/c3.png" alt="">
+                    <h3>Insumos médicos</h3>
+                    <p>
+                        + Estetoscopios <br> + Kit de sutura <br> + Lo que necesitas y más
+                    </p>
+                </div>
             </div>
-            <img src="https://ejemplo.com/Imagen2.png" alt="Imagen de prueba" class="max-w-md" width="400" height="300">
         </div>
 
-        <div class="container flex flex-col md:flex-row md:justify-between items-center">
-            <img src="C:\Users\User HP\OneDrive\Escritorio\server\Imagen 2.png" alt="Imagen de prueba" class="max-w-md md:ml-8 mb-8 md:mb-0">
-            <div class="text max-w-md">
-                <h2 class="text-2xl font-bold mb-4">Scrubs</h2>
-                <p class="text-gray-700 leading-7">
-                    Disponible en una amplia variedad de tallas y colores, nuestros scrubs ofrecen un aspecto profesional y moderno que te hará destacar en cualquier entorno médico. Con características adicionales como bolsillos prácticos para guardar tus herramientas de trabajo y una construcción duradera que resiste el desgaste diario, nuestros scrubs son una elección inteligente para cualquier profesional de la salud.
-                    Nuestros scrubs de marca MedSociety se convertirán en una opción imprescindible para cualquier profesional de la salud que busque un uniforme de calidad superior. ¡Haz tu pedido hoy y experimenta la diferencia por ti mismo!
+    </section>
+    <main class="services">
+        <div class="services-content container">
+            <h2>Novedades</h2>
+            <div class="services-group">
+                <div class="services-1">
+                    <img src="images/i1.svg" alt="">
+                    <h3>New Packaging</h3>
+                </div>
+                <div class="services-1">
+                    <img src="images/i2.svg" alt="">
+                    <h3>New Style</h3>
+                </div>
+                <div class="services-1">
+                    <img src="images/i3.svg" alt="">
+                    <h3>New Page</h3>
+                </div>
+            </div>
+            <p>
+                Nos desarrollamos en beneficio de ustedes para brindarles un servicio mucho más profesional. <br> Si buscas tener un acceso directo sobre los últimos cambios que vamos creando
+            </p>
+            <a href="https://www.instagram.com/medsociety_xto/" class="btn-1">Aquí tienes un enlace directo</a>
+        </div>
+    
+    </main>
+
+    <section class="general">
+        <div class="general-1">
+            <h2>Compromiso como empresa</h2>
+            <p>
+                MedSociety es una empresa que creció gracias al compromiso de todos y cada uno de los integrantes de la misma, donde no solo hemos logrado obtener una comunidad sólida y comprometida con el aprendizaje, sino que también encontramos una manera de inspirar a todos aquellos que deseen aprender con un poco de información recopilada en el transcurso de la carrera.
+            </p>
+        </div>
+        <div class="general-2"></div>
+    </section>
+
+
+    <section class="general">
+        <div class="general-3"></div>
+        <div class="general-1">
+            <h2>About Us</h2>
+            <p>
+                Llevamos ya un aproximado de 3 años bajo el nombre de MedBooks brindándoles los implementos de más alta calidad necesarios para todos nuestros colegas. <br> Gracias a ellos somos lo que somos, es por eso que nos comprometemos en seguir mejorando. <br> Es por eso que tomamos la iniciativa de crear un rebranding propio para el nivel que merecen nuestros colegas.
+            </p>
+        </div>
+    </section>
+    <section class="blog container">
+        <h2>Esencia</h2>
+        <p>En MedSociety trabajamos con 3 pilares esenciales</p>
+        <div class="blog-content">
+            <div class="blog-1">
+                <img src="images/blog1.jpg" alt="">
+                <h3>Honestidad</h3>
+                <p>
+                    Antes de ser una empresa, somos un grupo de estudiantes de medicina que desde un principio siempre buscaron la manera de tener todos los utensilios necesarios para poder seguir mejorando como futuros doctores.
+                </p>
+            </div>
+            <div class="blog-1">
+                <img src="images/blog2.jpg" alt="">
+                <h3>Confianza</h3>
+                <p>
+                    Llevamos un récord intachable de entregas de 3 años como emprendimiento y ahora como una empresa institucionalizada.
+                </p>
+            </div>
+            <div class="blog-1">
+                <img src="images/blog3.jpg" alt="">
+                <h3>Calidad</h3>
+                <p>
+                    No jugamos con la calidad de nuestros productos, por encima de todo siempre estará el compromismo colega a colega.
                 </p>
             </div>
         </div>
-    </main>
-    <footer>
+    </section>
+    <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <h4>Contacto</h4>
-                    <ul class="list-unstyled">
-                        <li><i class="fas fa-envelope"></i> info@example.com</li>
-                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
-                    </ul>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer-logo">
+                        <h2>Redes sociales oficiales</h2>
+                    </div>
+                    <div class="footer-links">
+                        <ul>
+                            <li>
+                                <a href="https://www.instagram.com/medsociety_xto/" target="_blank">IG: @medsociety_xto</a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/medsociety_ec/" target="_blank">IG: @medsociety_ec</a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/message/YP5JPMH4FZOKH1" target="_blank">Whatsapp</a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/MedSociety_ec" target="_blank">Twitter</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h4>Síguenos</h4>
-                    <ul class="list-unstyled social-icons">
-                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    </ul>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer-info">
+                        <p>Todos los derechos reservados &copy; 2023</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="text-center">
-            <p>Todos los derechos reservados &copy; 2023</p>
         </div>
     </footer>
 </body>
-
 </html>
